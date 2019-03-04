@@ -1,7 +1,7 @@
-TypeScript Rollup Demo
-======================
+TypeScript Rollup Include External Dependency Demo
+==================================================
 
-Compile and package typescript files.
+Use `rollup-plugin-node-resolve` plugin to include external dependencies.
 
 ```
 npm install

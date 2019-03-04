@@ -1,5 +1,5 @@
-import {capitalize} from 'lodash'
+import forceNumber from 'force-number'
 
-export default function (name: string) {
-  return 'Hello, ' + capitalize(name) + '!'
+export default function (numStr: string) {
+  return 'Hello, ' + forceNumber(numStr) + '!'
 }
